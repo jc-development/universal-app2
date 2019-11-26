@@ -1,0 +1,8 @@
+#dealer-signup-form {
+  margin: 1rem auto;
+  width: 75%;
+}
+
+#dealer-signup-form form div.form-group label {
+  font-size: 2.25rem;
+}

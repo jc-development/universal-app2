@@ -1,0 +1,498 @@
+
+
+#intro {
+  margin: -24px 0 auto;
+  text-align: center;
+}
+
+#intro a#promo {
+  color: #000;
+  text-decoration: none;
+}
+
+#shirt-promo {
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  margin: 1rem;
+  padding: 0 1rem;
+}
+
+#intro-logo {
+  max-height: 65px;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.intro-text-overlay {
+  margin: 0 2rem;
+}
+
+.intro-text-overlay a {
+  padding: 2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.home-img-main {
+  margin: 0 auto;
+}
+
+.intro-figure {
+  max-width: 1078px !important;
+  margin-bottom: 3rem !important;
+}
+
+figure.intro-figure figcaption {
+  left: initial;
+  right: 0;
+}
+
+#photo-description {
+  position: absolute;
+  top: 0;
+  padding: 0 2rem;
+}
+
+#promo-description {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#promo-description img {
+  width: 22rem;
+}
+
+#promo-description h3 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+#promo-description p {
+  border: 3px solid #fff;
+  padding: 2rem;
+  line-height: 5rem;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+#promo-description p span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#promo-description p span#bigger {
+  background: #337ab7;
+  border-radius: 5%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+#readers-choice {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  clear: both;
+}
+
+#readers-choice img:first-child {
+  margin: 1rem auto;
+}
+
+#readers-choice div:last-child img {
+  width: 20%;
+}
+
+#readers-choice div:last-child a {
+  /*background-color: #777;*/
+  border-radius: 10px;
+  color: #fff;
+  padding: .5rem;
+}
+
+#intro-end-content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.homepage-video-wrapper {
+  width: 85%;
+  margin: 0 auto 5rem auto;
+}
+
+.intro-img-section {
+  margin-top: 2.5rem;
+}
+
+.intro-img-section > .col-sm-4 {
+  margin-bottom: 2.5rem;
+}
+
+.intro-img-section > .col-sm-4 > img {
+  width: 100%;
+}
+
+#string-wax {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  clear: both;
+  display: flex;
+  align-items: center;
+}
+
+#string-wax h3 {
+  text-transform: uppercase;
+}
+
+#string-wax .btn {
+  padding: 1rem 2rem;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  #readers-choice h1, #string-wax h1 {
+    font-size: 3rem !important;
+  }
+  #photo-description {
+    bottom: 0;
+    top: initial;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  #intro {
+    margin-top: 0rem;
+  }
+  #readers-choice h1, #string-wax h1 {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  figure.intro-figure figcaption {
+    padding: 1rem;
+  }
+  #photo-description {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #intro {
+    margin-top: 0rem;
+  }
+  .intro-figure > figcaption {
+    padding:1rem;
+  }
+  #readers-choice {
+    width: 96%;
+  }
+  #intro-end-content {
+    width: 90%;
+  }
+  .homepage-video-wrapper {
+    width: 90%;
+  }
+  #string-wax {
+    width: 96%;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #photo-description {
+    position: static;
+    color: #000;
+    background: transparent;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+  .mobile-content-break {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  #intro-content {
+    padding: 0rem;
+    bottom: 10%;
+    position: static;
+    color: #000;
+  }
+
+  #photo-description {
+    padding: 1rem;
+  }
+
+  #photo-description  h3{
+    margin-top: 0;
+  }
+
+  .intro-text-overlay hr {
+    display: none;
+  }
+
+  #readers-choice img:first-child {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .mobile-content-break {
+    width: 94%;
+    margin-top: 0;
+    border-color: #ccc;
+  }
+
+  .home-img-main {
+    height: 33rem !important;
+    /*width: 125rem !important;*/
+    margin-left: -1rem !important;
+    max-width: none !important;
+  }
+
+  .quote {
+    position: absolute;
+    bottom: 15rem;
+    color: white;
+    font-size: 2.75rem;
+    width: 85%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+
+}
+
+@media screen and (orientation: landscape) and (max-height: 400px) {
+  #string-wax img{
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
+
+article#intro-end-content div.row div figure img.img-responsive {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/********* VIDEOJS - NATHAN BROOKS *********/
+.homepage-video-wrapper {
+  position: relative;
+}
+.homepage-video-title {
+  margin-top: 3rem;
+}
+
+/******* September 26th - World Cup Final Image *********/
+.world-cup-final {
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+}
+
+@media screen and (max-width: 767px) {
+  .world-cup-final {
+    width: 94%;
+  }
+}
+
+/*************** START BLACK FRIDAY *************/
+
+  #black-friday-special-wrapper {
+    position: relative;
+  }
+
+  .black-friday-special {
+    position: relative;
+  }
+
+  .black-friday-special h2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+  }
+
+
+.coupon-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 4rem auto;
+  padding: 1rem;
+  width: 90%;
+  height: 45rem;
+  min-height: 35rem;
+}
+
+.promo-code-wrapper {
+  clear: both;
+  padding: 1rem;
+  min-height: 35rem !important;
+  height: 40.35rem;
+}
+
+.promo-code-wrapper .black-friday-logo-size {
+  width: 40%;
+  position: absolute;
+  /*background: black;*/
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+}
+
+.promo-code-wrapper .promo-code-bg {
+  background-image: url('./selection.gif');
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 0.2rem;
+  position: absolute;
+  width: 75%;
+  top: 28rem;
+  left: 50%;
+  border-radius: 13px;
+  transform: translate(-50%, -2rem);
+}
+
+.promo-code-wrapper .promo-code-bg h2 {
+  border: 1px;
+  font-size: 2rem;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  background: white;
+  transform: translate(-50%, 0);
+}
+
+.promo-code-wrapper .promo-code-bg h3 {
+  background: white;
+  line-height: 15rem;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  font-size: 8rem;
+}
+
+.promo-code-wrapper h4 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  background: #fff;
+  font-size: 8rem;
+  padding: 0 2rem;
+  width: 90%;
+  background: aliceblue;
+}
+
+.coupon-wrapper .value-details-wrapper {
+  box-shadow: -5px -1px 5px -1px #ccc;
+  color: #fff;
+  position: relative;
+  height: 45rem;
+  float: left;
+  text-shadow: 1px 1px 1px #000;
+  min-height: 35rem;
+}
+
+.coupon-wrapper .value-details-wrapper:hover {
+  cursor: pointer;
+}
+
+.coupon-wrapper .value-details-wrapper h2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 5rem;
+  width: 95%;
+  margin: 1rem auto;
+  padding: 0;
+}
+
+.coupon-wrapper .value-details-wrapper h6 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  font-size: 3.5rem;
+  width: 86%;
+}
+
+.black-friday-cta {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  font-size: 3rem !important;
+  font-weight: 800;
+  font-family: sans-serif;
+  line-height: 5rem;
+}
+
+@media screen and (max-width: 993px) {
+  .coupon-wrapper .value-details-wrapper {
+    width: 100%;
+  }
+
+  .coupon-wrapper .value-details-wrapper h2 {
+    font-size: 3.75rem !important;
+    top: 1.5rem;
+  }
+
+  .promo-code-wrapper .black-friday-logo-size {
+    width: 40%;
+    top: 9%;
+    /*transform: translate(-50%, 0);*/
+  }
+
+  .promo-code-wrapper h4 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -35%);
+    -ms-transform: translate(-50%, -35%);
+    transform: translate(-50%, -35%);
+    background: #fff;
+    font-size: 6rem;
+    padding: 0 2rem;
+    width: 90%;
+    background: aliceblue;
+  }
+
+  .promo-code-wrapper {
+    min-height: 40rem !important;
+    height: 43.35rem;
+  }
+
+  .promo-code-wrapper .promo-code-bg h2 {
+    width: 85%;
+  }
+
+  .promo-code-wrapper .promo-code-bg h3 {
+    font-size: 7rem !important;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .promo-code-wrapper .black-friday-logo-size {
+    width: 80%;
+  }
+}
+
+/*************** END BLACK FRIDAY *************/

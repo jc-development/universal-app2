@@ -1,0 +1,78 @@
+.accessory {
+  padding: 3rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.accessory img {
+  max-width: 50% !important;
+  margin: 0 auto;
+}
+
+.accessory img.loop {
+  max-width: 30% !important;
+}
+
+.accessory-add {
+  /*display: block !important;
+  margin-top: 24px;*/
+  vertical-align: bottom !important;
+  margin-top: 2rem;
+}
+/*.select-group {
+  width: 40%;
+}*/
+
+.select-group label {
+  display: block;
+  width: 96%;
+}
+
+.select-group select {
+  width: 96% !important;
+}
+
+.accessory-install-section, .accessory-add-section {
+  margin-top: 2rem;
+}
+
+.nitro-add {
+  vertical-align: bottom !important;
+}
+
+#nitro-button-balls .select-group {
+    width: 60%;
+}
+
+#hat, #ultimate-string-loop, #cobalt-ice-string-wax, #nitro-button-balls {
+  width: 85%;
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .accessory {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #hat, #ultimate-string-loop, #cobalt-ice-string-wax, #nitro-button-balls {
+    width: 90%;
+  }
+  .accessory {
+    width: 100%;
+    padding: 1rem;
+  }
+  .select-group {
+    width: 100%;
+  }
+  .select-group label {
+    width: 100%;
+  }
+  .select-group select {
+    width: 100% !important;
+  }
+  #nitro-button-balls .select-group {
+      width: 100%;
+  }
+}

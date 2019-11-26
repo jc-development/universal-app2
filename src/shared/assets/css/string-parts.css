@@ -1,0 +1,106 @@
+.color-pattern-wrapper {
+  /*float: left;*/
+  /*background: #ccc;*/
+  /*padding: 1rem;*/
+  /*margin: 1rem;*/
+  position: relative;
+  /*width: 22%;*/
+  /*white-space: normal;*/
+  display: inline-block;
+  /*vertical-align: middle;*/
+  cursor: pointer;
+  margin: .25rem;
+}
+
+.color-pattern-click {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.string-color-part {
+  border: 1px solid #000;
+  float: left;
+  /*width: 100px;
+  height: 100px;*/
+  width: 60px;
+  height: 60px;
+}
+
+.swatch-left-double,
+.swatch-right-double {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.swatch-left-triple,
+.swatch-middle-triple,
+.swatch-right-triple {
+  float: left;
+  width: 33.333%;
+  height: 100%;
+}
+
+.colors-wrapper {
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: center;
+  display: inline-block;
+  width: 84%;
+}
+.colors-wrapper > .row > .color-pattern-wrapper:first-of-type {
+    margin-left: 0;
+}
+.colors-wrapper > .row > .color-pattern-wrapper:last-of-type {
+    margin-right: 1px;
+}
+
+.color-pattern-wrapper > .swatch-wrapper > p {
+  display: none;
+}
+
+.color-indicators {
+  font-size: 6rem;
+  text-align: center;
+  display: inline-block;
+  width: 8%;
+  height: 140px;
+  vertical-align: top;
+  padding-top: 2rem
+}
+
+.color-indicators > i {
+  vertical-align: middle;
+}
+
+.color-disabled {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  z-index: 1;
+  cursor: not-allowed;
+  background: rgba(120,120,120,0.8);
+  color: #000;
+  font-weight: 500;
+  line-height: 3;
+}
+
+@media screen and (max-width: 767px) {
+  .colors-section-wrapper {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .color-indicators > .fa-chevron-left {
+    margin-left: -16px;
+  }
+}

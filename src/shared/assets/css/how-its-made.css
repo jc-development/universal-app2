@@ -1,0 +1,33 @@
+#how-strings-are-made {
+  /*text-align: center;*/
+  width: 85%;
+  margin: 1rem auto;
+}
+
+#how-strings-are-made section {
+  padding: 2rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#how-strings-are-made article section article header p a, #how-strings-are-made section:last-child a {
+  /*background-color: #777;*/
+  border-radius: 10px;
+  color: #fff;
+  padding: .5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  #how-strings-are-made section {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #how-strings-are-made {
+    width: 90%;
+  }
+  #how-strings-are-made section {
+    width: 100%;
+  }
+}

@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Roboto+Condensed:400,700");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 5rem !important;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.gray-bg {
+  background: #f9f9f9 !important;
+}
+
+.black-back-white-letters {
+  background: black;
+  color: white;
+  padding: 1rem;
+  width: 50%;
+  margin: .5rem auto;
+}
+
+th {
+  font-size: 1.75rem;
+}
+
+figcaption a {
+  background-color: #777;
+  border-radius: 10px;
+  color: #fff;
+  padding: 1rem;
+  font-size: 2.5rem !important;
+}
+
+figure {
+  position: relative;
+  width: 85%;
+  margin: 4rem auto !important;
+  overflow: hidden;
+}
+
+figure figcaption {
+  position: absolute;
+  /*bottom: 5%;*/
+  color: #fff;
+  /*left: 18px;*/
+  font-size: 2rem;
+  text-align: left;
+  /*text-shadow: 1px 1px 1px #000;*/
+  /*width: 50%;*/
+  bottom: 0%;
+  left: 0%;
+  background-color:rgba(51,51,51,0.5);
+  padding: 2rem;
+}
+figure.pre-config figcaption > .btn {
+  font-weight: 600;
+  background-color: #FCB040;
+  color: #000;
+}
+figure.pre-config figcaption > .btn:hover, figure.pre-config figcaption > .btn:focus {
+  background-color: #FCB040;
+  color: #000!important;
+}
+
+ figure figcaption dt {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+figure figcaption dl dd span {
+  font-weight: 900;
+}
+
+.notice {
+  font-weight: 700 !important;
+}
+
+.help-button {
+  background-color: #777;
+  border-radius: 10px;
+  color: #fff;
+  /*width: 75%;*/
+  padding: .5rem;
+  text-align: center;
+  /* padding: 0 !important; */
+  border: 1px solid #fff;
+  margin: 0.5rem !important;
+}
+.help-button-reset {
+  /*width: 100%;*/
+  font-size: 2.3rem !important;
+}
+
+.center-button-wrapper {
+  border: 1px solid #000;
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.center-button-wrapper p {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.center-button-wrapper button {
+  margin: 1% 2%;
+}
+
+.center-button-wrapper div.row.center {
+  text-align: center;
+}
+
+.btn {
+  background-color: #337ab7;
+  color: #fff;
+  border: 1px solid #222 !important;
+  transition: all 0.5s;
+}
+
+.btn:hover, .btn:focus {
+  color: #fff !important;
+  background-color: #337ab7;
+}
+
+.small {
+  font-size: 2rem !important;
+  font-weight: 400;
+}
+
+.center-article-summary {
+  margin: 1rem auto;
+  width: 64%;
+}
+
+.border-top-center {
+  border-top: 1px solid #000;
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.internal-link {
+  font-size: 1.8rem !important;
+}
+
+.add-cart {
+  font-size: 2rem !important;
+}
+
+/******* Add To Cart Pop-Up **********/
+.hidden-modal {
+  display: none;
+  position: fixed;
+  background: rgba(200,200,200,0.5);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20000;
+}
+
+.hidden-modal > .notify{
+  background: #fff;
+  border: 1px solid #000;
+  padding: 2rem;
+  max-width: 420px; /* 350px; */
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.hidden-modal > .notify > img {
+  max-width: 150px;
+  margin: 0 auto;
+  max-height: 150px;
+}
+.hidden-modal > .notify > .string-serving-add-cart {
+  height: 30px;
+}
+.hidden-modal > .notify > .string-serving-add-cart > #strings-serving-image-wrapper {
+  left: auto;
+  margin-top: 0px;
+  width: 90%;
+}
+.hidden-modal > .notify > button {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hidden-modal > .notify > a {
+  color: #fff;
+  width: 100%;
+}
+
+.hidden-modal > .notify > a:hover, .hidden-modal > .notify > a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ship-image {
+  max-width: 70px !important;
+  margin: 1rem auto;
+}
+
+#accessories-pitch {
+  border-top: 1px solid #ccc;
+  margin: 4rem auto;
+  padding: 1rem 0;
+  overflow-y: scroll;
+  height: 40vh;
+}
+
+#accessories-pitch p {
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.7rem;
+  padding: 1.5rem 0;
+}
+
+.icon {
+  max-width: 34rem !important;
+  margin:  0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  p {
+    font-size: 18px;
+  }
+
+  figure {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.6rem !important;
+  }
+  h2 {
+    font-size: 2.2rem !important;
+  }
+  h3 {
+    font-size: 2rem !important;
+  }
+  p {
+    font-size: 16px;
+  }
+  section {
+    padding: 0;
+  }
+  figure {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 661px) {
+  .mobile-preconfig-btn {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 660px) {
+
+  figure.pre-config {
+    border: 1px solid #000;
+    width: 92%;
+  }
+
+  figure.pre-config figcaption {
+    position: static;
+    background: #fff;
+    color: #000;
+    text-shadow: none;
+  }
+  figure.pre-config figcaption > .btn {
+    width: 100%;
+  }
+  figure figcaption dl {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .desktop-preconfig-btn {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  figure figcaption {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  figure figcaption {
+    font-size: 1.5rem;
+  }
+
+  figure figcaption dt {
+    font-size: 2rem;
+  }
+  figure figcaption > img.logo-size {
+    display: none
+  }
+
+  .black-back-white-letters {
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 390px) {
+  figure figcaption {
+    padding: 0.2rem 1rem;
+  }
+}
+
+
+/********* Email Sign Up *********/
+
+#black-friday-signup {
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.email-confirmation {
+	text-align: center !important;
+  color: green;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 767px) {
+  #black-friday-signup {
+    width: 90%;
+  }
+}
+
+/***  New April 10, 2018 -  preconfig text placement ***/
+figure.pre-config figcaption.top-right {
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: auto;
+}
+
+.img-preconfig {
+  width: 100%;
+}
+
+/***  New May 20, 2019 -  purchase disclaimer ***/
+.purchase-disclaimer {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-style: italic;
+}
+
+#step-2-wrapper .purchase-disclaimer {
+  float: right;
+  margin-right: 2rem;
+  clear: both;
+  color: #ccc;
+  text-align: right;
+}
+
+.cart-items-wrapper .purchase-disclaimer {
+  padding-top: 0 !important;
+  width: 100%;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  #step-2-wrapper .purchase-disclaimer {
+    width: 90%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+#news, #news-page {
+  /*text-align: center;*/
+  width: 85%;
+  margin: 1rem auto;
+}
+
+#news section, #news-page section {
+  padding: 2rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  #news section, #news-page section {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #news, #news-page {
+    width: 90%;
+  }
+  #news section, #news-page section {
+    width: 100%;
+  }
+}

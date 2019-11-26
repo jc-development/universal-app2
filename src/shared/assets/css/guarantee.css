@@ -1,0 +1,46 @@
+#guarantee {
+  /*text-align: center;*/
+  width: 85%;
+  margin: 1rem auto;
+}
+
+#guarantee article:first-child img {
+  margin: 1rem auto 3rem;
+  max-width: 34rem;
+}
+#guarantee .guarantee-content {
+  width: 80%;
+  margin: 0 auto 3rem auto;
+  padding: 2rem 0;
+}
+#guarantee  > .pre-config {
+  width: 80%;
+}
+
+#guarantee article a {
+  /*background-color: #777;*/
+  border-radius: 10px;
+  color: #fff;
+  padding: .5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  #guarantee .guarantee-content {
+    width: 90%;
+  }
+  #guarantee  > .pre-config {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #guarantee {
+    width: 90%;
+  }
+  #guarantee .guarantee-content {
+    width: 100%;
+  }
+  #guarantee  > .pre-config {
+    width: 100%;
+  }
+}

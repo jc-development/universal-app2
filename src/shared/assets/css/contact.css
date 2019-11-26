@@ -1,0 +1,55 @@
+#contact {
+  margin: 1rem auto;
+  width: 85%;
+}
+
+#contact a {
+  font-size: 21px;
+}
+
+#contact form div {
+  padding: 1rem 0;
+}
+
+#contact form div fieldset label {
+  padding-top: .25rem;
+}
+
+#map-wrapper {
+  width: 100%;
+  height: 500px;
+}
+
+#google-map-marker {
+  position: relative;
+}
+
+#google-map-marker div {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: red;
+
+}
+
+#google-map-marker p {
+  background: #fff;
+  font-size: 1.5rem;
+  /*font-weight: 700;*/
+  padding: .5rem;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  width: 280px;
+  font-family: 'Roboto Condensed', sans-serif !important;
+
+}
+
+
+#email-confirmation {
+  color: green;
+  font-weight: 600;
+  padding-top: 1rem;
+  display: none;
+}

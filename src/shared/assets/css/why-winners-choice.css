@@ -1,0 +1,90 @@
+#why-winners-choice {
+  width: 85%;
+  margin: 1rem auto;
+}
+
+#pimmp, #x-braid, #weatherlock, #quality, #assembled {
+  margin: 0 auto 3rem auto;
+  padding: 2rem 0;
+  width: 80%;
+}
+#why-winners-choice  > .pre-config {
+  width: 80%;
+}
+
+#x-braid ul, #weatherlock ul {
+  font-size: 1.8rem;
+}
+
+#x-braid ul > li, #weatherlock ul > li {
+  margin-bottom: 1rem;
+}
+
+.why-winners-choice-figure {
+  margin-bottom: 3rem !important;
+}
+
+.why-winners-choice-figure > figcaption {
+  right: 0;
+  left: initial;
+}
+
+
+
+@media screen and (max-width: 1140px) {
+  .why-winners-choice-figure > figcaption {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #pimmp, #x-braid, #weatherlock, #quality, #assembled {
+    width: 90%;
+  }
+  #why-winners-choice  > .pre-config {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .why-winners-choice-figure > figcaption {
+    background: transparent;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 660px) and (max-width: 840px) {
+  .why-winners-choice-figure > figcaption > .ship-image, .why-winners-choice-figure > figcaption > dl {
+    margin: 0rem auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #why-winners-choice {
+    width: 90%;
+  }
+  #pimmp, #x-braid, #weatherlock, #quality, #assembled {
+    width: 100%;
+  }
+  #why-winners-choice  > .pre-config {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #why-winners-choice figure.pre-config {
+      border: 1px solid #000;
+      width: 100%;
+      padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .why-winners-choice-figure .home-img-main {
+    margin-left: -8rem !important;
+  }
+
+  .why-winners-choice-figure .icon {
+    max-width: 100% !important;
+  }
+}

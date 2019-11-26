@@ -1,0 +1,27 @@
+.jumbotron {
+  padding: 0 !important;
+}
+
+/*.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}*/
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  vertical-align: middle !important;
+  border-top: none !important;
+}
+
+.form-control {
+  font-size: 16px !important;
+}
+.dropdown > a {
+  background: transparent !important;
+}
+
+
+
+
+/*.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: transparent !important;
+}*/

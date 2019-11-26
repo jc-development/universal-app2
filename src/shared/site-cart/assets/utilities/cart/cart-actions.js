@@ -1,0 +1,43 @@
+export const ADD_TO_CART_REQUESTED = 'ADD_TO_CART_REQUESTED';
+export const ADD_TO_CART_SUCCEEDED = 'ADD_TO_CART_SUCCEEDED';
+export const ADD_TO_CART_FAILED = 'ADD_TO_CART_FAILED';
+
+export const REMOVE_FROM_CART_REQUESTED = 'REMOVE_FROM_CART_REQUESTED';
+export const REMOVE_FROM_CART_SUCCEEDED = 'REMOVE_FROM_CART_SUCCEEDED';
+export const REMOVE_FROM_CART_FAILED = 'REMOVE_FROM_CART_FAILED';
+
+export const ADD_NITRO_BUTTON_INSTALL_REQUESTED = 'ADD_NITRO_BUTTON_INSTALL_REQUESTED';
+export const ADD_NITRO_BUTTON_INSTALL_SUCCEEDED = 'ADD_NITRO_BUTTON_INSTALL_SUCCEEDED';
+export const ADD_NITRO_BUTTON_INSTALL_FAILED = 'ADD_NITRO_BUTTON_INSTALL_FAILED';
+
+export const ADD_NITRO_XL_BUTTON_INSTALL_REQUESTED = 'ADD_NITRO_XL_BUTTON_INSTALL_REQUESTED';
+export const ADD_NITRO_XL_BUTTON_INSTALL_SUCCEEDED = 'ADD_NITRO_XL_BUTTON_INSTALL_SUCCEEDED';
+export const ADD_NITRO_XL_BUTTON_INSTALL_FAILED = 'ADD_NITRO_XL_BUTTON_INSTALL_FAILED';
+
+export const addToCart = (productConfig) => {
+  return {
+    type: ADD_TO_CART_REQUESTED,
+    productConfig
+  };
+}
+
+export const removeFromCart = (domId) => {
+  return {
+    type: REMOVE_FROM_CART_REQUESTED,
+    domId
+  };
+}
+
+export const addNitroButtonInstall = (boolean) => {
+  return {
+    type: ADD_NITRO_BUTTON_INSTALL_REQUESTED,
+    boolean
+  };
+}
+
+export const addNitroXlButtonInstall = (boolean) => {
+  return {
+    type: ADD_NITRO_XL_BUTTON_INSTALL_REQUESTED,
+    boolean
+  };
+}

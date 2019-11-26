@@ -1,0 +1,99 @@
+#main-nav #mobile-nav ul {
+    padding: 0 5px;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+#main-nav #mobile-nav ul li {
+    padding: 5px;
+    position: relative;
+}
+
+#main-nav #mobile-nav ul#mobile-right {
+    border-bottom: 0;
+    margin: 0;
+    align-self: flex-end;
+    padding: 0;
+}
+
+#main-nav #mobile-nav ul#mobile-right li {
+    align-self: flex-end;
+    padding: 0;
+}
+
+#main-nav #mobile-nav ul#mobile-right li a, #main-nav #mobile-nav ul#mobile-right li button {
+    padding: 2rem 1rem 1rem 1rem;
+    color: #000;
+    background: #fff;
+}
+
+#main-nav #mobile-nav ul#mobile-right li button {
+    appearance: none;
+    border: none;
+}
+#main-nav #mobile-nav ul#mobile-right li button:focus {
+    appearance: none;
+    outline-color: transparent;
+    border: none;
+}
+
+#main-nav #mobile-nav .acc-caret-icon {
+    position: absolute;
+    right: 15px;
+}
+
+#main-nav #mobile-nav .dropdown-main-menu {
+    background-color: #fff;
+    border-bottom: none;;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
+    display: none;
+}
+
+#main-nav #mobile-nav .dropdown-main-menu li {
+    flex: 0 1 100%;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+}
+
+#main-nav #mobile-nav .dropdown-main-menu li a {
+    padding: 10px;
+}
+
+#main-nav #mobile-nav .dropdown-main-menu.open {
+    height: auto;
+    z-index: 20;
+    opacity: 1;
+    display: block;
+}
+
+#main-nav #mobile-nav .dropdown-accessories, #main-nav #mobile-nav .dropdown-accessories li:last-child {
+    border-bottom: none;
+}
+
+#main-nav #mobile-nav .dropdown-accessories li a {
+    font-family: Nunito,sans-serif;
+    font-weight: 500;
+}
+
+#main-nav #mobile-nav .dropdown-accessories.open {
+    border-top: 1px solid #ccc;
+}
+
+@media screen and (max-width: 420px) {
+    #main-nav #mobile-nav .nav-logo {
+        max-height: 58px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #main-nav #mobile-nav .nav-logo {
+        max-height: 50px;
+    }
+}

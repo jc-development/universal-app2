@@ -1,0 +1,93 @@
+.error {
+  border: 2px solid red;
+  padding: 1rem;
+  color: red;
+}
+
+.form-error-msg {
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
+
+label span {
+  text-align: right;
+  margin: 0 0 0 50px;
+  font-size: 1.25rem;
+  color: darkgray;
+}
+
+
+/* the right position needs to be animated to right 1rem for a show, and hidden at -8rem for example */
+#new-color-email-form-wrapper {
+  position: fixed;
+  top: 25%;
+  right: -20.5rem;
+  background: aliceblue;
+  width: 25%;
+  text-align: left;
+  padding: 1rem 1rem 1rem 0rem;
+  z-index: 10;
+  width: 32rem;
+  text-align: center;
+}
+
+#new-color-email-form-wrapper form {
+  border-left: 1px solid #777777;
+  padding: 1rem;
+}
+
+#new-color-email-form-wrapper div p {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#new-color-email-form-wrapper div p span {
+  font-size: 1.25rem;
+  float: left;
+}
+
+#new-color-email-form-wrapper form p {
+  font-size: 1.5rem;
+}
+
+#form-symbol-open, #form-symbol-close {
+  font-size: 4rem !important;
+  cursor: pointer;
+}
+
+#open-text-form, #close-text-form {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1300px) {
+  #new-color-email-form-wrapper {
+    position: fixed;
+    top: initial;
+    bottom: -20rem;
+    right: 1rem;
+    background: aliceblue;
+    width: 25%;
+    text-align: left;
+    padding: 0rem 1rem;
+    z-index: 10;
+    width: 26rem;
+  }
+  #new-color-email-form-wrapper form {
+    border-top: 1px solid #777777;
+    border-left: none;
+  }
+  #form-symbol-open, #form-symbol-close{
+    display: inline-block;
+    width: 2rem;
+  }
+  .text-indicator{
+    display: inline-block;
+    padding: 0 2rem;
+    vertical-align: top;
+    margin-top: 0.5rem;
+    width: 80%;
+    text-align: center;
+  }
+}
